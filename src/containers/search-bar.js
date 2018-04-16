@@ -50,4 +50,5 @@ function mapDispatchToProps(dispatch) {
 }
 
 //This container doesn't manage state, hence null as the first parameter.
+
 export default connect( null, mapDispatchToProps)(SearchBar);
