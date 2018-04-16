@@ -6,7 +6,7 @@ import { fetchWeather } from '../actions/index';
 class SearchBar extends Component {
     constructor(props) {
         super(props);
-        console.log('this.props from search-bar: ', this.props );
+
         this.state = { term: ''};
 
         //We have to bind the context of (this) to the searchBar.

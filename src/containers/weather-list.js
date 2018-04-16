@@ -5,6 +5,7 @@ class WeatherList extends Component {
 
 
     renderWeather(cityData) {
+        console.log('cityData: ', cityData );
         return (
             <tr>
                 <td>{ cityData.city.name }</td>
@@ -34,10 +35,11 @@ class WeatherList extends Component {
 
 }
 
+
 function mapStateToProps(state) {
     return { weather: state.weather };
-}
 
+}
 //above method could also be in es-6:
 /*function mapStateToProps({ weather }) {
     return { weather };
