@@ -1,3 +1,4 @@
+
 import  { FETCH_WEATHER } from '../actions/index';
 export default function( state= null, action) {
 
@@ -9,3 +10,4 @@ export default function( state= null, action) {
     console.log('weather reducer state: ', state);
     return state;
 }
+
