@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class GoogleMap extends Component {
+export default class GoogleMap extends Component {
 
     componentDidMount() {
         new google.maps.Map( this.refs.map, {
@@ -18,4 +18,3 @@ class GoogleMap extends Component {
     }
 }
 
-export default GoogleMap;
